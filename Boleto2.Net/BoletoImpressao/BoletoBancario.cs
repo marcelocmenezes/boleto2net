@@ -196,24 +196,24 @@ namespace Boleto2Net
                 .Replace("@TELEFONE", telefone)
                 .Replace("#BOLETO#", htmlBoleto);
         }
+
+        //Recibo Sacado Editado
         public string GeraHtmlReciboSacado()
         {
             try
             {
                 var html = new StringBuilder();
-                html.Append(Html.ReciboSacadoParte1);
-                html.Append("<br />");
-                html.Append(Html.ReciboSacadoParte2);
-                html.Append(Html.ReciboSacadoParte3);
+                html.Append(Html.ReciboSacadoParte01);
+                html.Append(Html.ReciboSacadoParte02);
                 if (MostrarEnderecoCedente)
                 {
-                    html.Append(Html.ReciboSacadoParte10);
+                    html.Append(Html.ReciboSacadoParte03);
                 }
-                html.Append(Html.ReciboSacadoParte4);
-                html.Append(Html.ReciboSacadoParte5);
-                html.Append(Html.ReciboSacadoParte6);
-                html.Append(Html.ReciboSacadoParte7);
-                html.Append(Html.ReciboSacadoParte8);
+                html.Append(Html.ReciboSacadoParte04);
+                html.Append(Html.ReciboSacadoParte05);
+                html.Append(Html.ReciboSacadoParte06);
+                html.Append(Html.ReciboSacadoParte07);
+                html.Append(Html.CorteLinha);
                 return html.ToString();
             }
             catch (Exception ex)
@@ -222,23 +222,23 @@ namespace Boleto2Net
             }
         }
 
+
+
         public string GeraHtmlReciboCedente()
         {
             try
             {
                 var html = new StringBuilder();
-                html.Append(Html.ReciboCedenteParte1);
-                html.Append(Html.ReciboCedenteParte2);
-                html.Append(Html.ReciboCedenteParte3);
-                html.Append(Html.ReciboCedenteParte4);
-                html.Append(Html.ReciboCedenteParte5);
-                html.Append(Html.ReciboCedenteParte6);
-                html.Append(Html.ReciboCedenteParte7);
-                html.Append(Html.ReciboCedenteParte8);
-                html.Append(Html.ReciboCedenteParte9);
-                html.Append(Html.ReciboCedenteParte10);
-                html.Append(Html.ReciboCedenteParte11);
-                html.Append(Html.ReciboCedenteParte12);
+                html.Append(Html.ReciboCedenteParte01);
+                html.Append(Html.ReciboCedenteParte02);
+                html.Append(Html.ReciboCedenteParte03);
+                html.Append(Html.ReciboCedenteParte04);
+                html.Append(Html.ReciboCedenteParte05);
+                html.Append(Html.ReciboCedenteParte06);
+                html.Append(Html.ReciboCedenteParte07);
+                html.Append(Html.ReciboCedenteParte08);
+                html.Append(Html.ReciboCedenteParte09);
+                html.Append(Html.CorteLinha);
                 return html.ToString();
             }
             catch (Exception ex)
@@ -276,6 +276,8 @@ namespace Boleto2Net
             if (!OcultarInstrucoes)
                 html.Append(GeraHtmlInstrucoes());
 
+
+            /*
             if (ExibirDemonstrativo && Boleto.Demonstrativos.Any())
             {
                 html.Append(Html.ReciboCedenteRelatorioValores);
@@ -317,6 +319,7 @@ namespace Boleto2Net
 
                 html = html.Replace("@ITENSDEMONSTRATIVO", grupoDemonstrativo.ToString());
             }
+            */
 
             if (!FormatoCarne)
             {
@@ -326,7 +329,7 @@ namespace Boleto2Net
                     html.Append(HtmlComprovanteEntrega);
                     //Html da linha pontilhada
                     if (OcultarReciboSacado)
-                        html.Append(Html.ReciboSacadoParte8);
+                       // html.Append(Html.ReciboSacadoParte08);
                 }
 
                 //Oculta o recibo do sacabo do boleto

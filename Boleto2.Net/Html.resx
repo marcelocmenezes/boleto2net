@@ -124,6 +124,9 @@
   <data name="barrainterna" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>imagens\barrainterna.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="CorteLinha" xml:space="preserve">
+    <value>&lt;div class="cut w792 txtRight ct"&gt;Corte na linha pontilhada&lt;/div&gt;</value>
+  </data>
   <data name="ComprovanteEntrega1" xml:space="preserve">
     <value>&lt;table class="w666"&gt;
 				&lt;tr&gt;
@@ -247,20 +250,6 @@
   <data name="ponto" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>imagens\ponto.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ReciboCedenteParte0" xml:space="preserve">
-    <value>&lt;table class="ctN w666"&gt;
-				&lt;tr&gt;
-						&lt;td class="w666" /&gt;
-				&lt;/tr&gt;
-				&lt;tr&gt;
-						&lt;td class="Ar"&gt;Corte na linha pontilhada&lt;/td&gt;
-				&lt;/tr&gt;
-				&lt;tr&gt;
-						&lt;td class="cut" /&gt;
-				&lt;/tr&gt;
-		&lt;/table&gt;
-		&lt;br /&gt;</value>
-  </data>
   <data name="ReciboCedenteRelatorioValores" xml:space="preserve">
     <value>
 			&lt;table class="w666"&gt;
@@ -333,268 +322,302 @@
 				&lt;/tr&gt;
 		</value>
   </data>
-  <data name="ReciboCedenteParte1" xml:space="preserve">
-    <value>&lt;table class="w666"&gt;
-				&lt;tr class="BHead"&gt;
-						&lt;td class="imgLogo Al"&gt;&lt;img src="@URLIMAGEMLOGO" /&gt;&lt;/td&gt;
-						&lt;td class="barra"&gt;&lt;img src="@URLIMAGEMBARRA" /&gt;&lt;/td&gt;
-						&lt;td class="w65 Ab bc Ac"&gt;@CODIGOBANCO-@DIGITOBANCO&lt;/td&gt;
-						&lt;td class="barra"&gt;&lt;img src="@URLIMAGEMBARRA" /&gt;&lt;/td&gt;
-						&lt;td class="w500 Ar ld" valign="bottom"&gt;@LINHADIGITAVEL&lt;/td&gt;
-				&lt;/tr&gt;
-		&lt;/table&gt;</value>
+  <data name="ReciboCedenteParte01" xml:space="preserve">
+    <value>&lt;!-- ReciboCedenteParte01 --&gt;
+&lt;table class="w792 bold header"&gt;
+    &lt;tr&gt;
+        &lt;td class="barRight w165  vMiddle"&gt;&lt;img class="logo" src="@URLIMAGEMLOGO" /&gt;&lt;/td&gt;
+        &lt;td class="barRight w66 codeBank txtCenter vMiddle"&gt;@CODIGOBANCO-@DIGITOBANCO&lt;/td&gt;
+        &lt;td class="txtRight vBottom"&gt;@LINHADIGITAVEL&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</value>
   </data>
-  <data name="ReciboCedenteParte10" xml:space="preserve">
-    <value>&lt;table class="w666 ctN"&gt;
-				&lt;tr&gt;
-						&lt;td class="pL6  w409"&gt;Sacador / Avalista &lt;b class="cpN"&gt;@AVALISTA&lt;/b&gt;&lt;/td&gt;
-						&lt;td class="w250 Ar"&gt;Autenticação mecânica - &lt;b class="cpN"&gt;Ficha de Compensação&lt;/b&gt;&lt;/td&gt;
-				&lt;/tr&gt;
-				&lt;tr class="h13"&gt;&lt;td colspan="3" /&gt;&lt;/tr&gt;
-		&lt;/table&gt;</value>
+  <data name="ReciboCedenteParte02" xml:space="preserve">
+    <value>&lt;!-- ReciboCedenteParte02 --&gt;
+&lt;table class="w792 barRight barLeft barBottom"&gt;
+    &lt;tr&gt;
+        &lt;td class="barRight"&gt;
+            &lt;div class="ct h11"&gt;Local de Pagamento&lt;/div&gt;
+            &lt;div class="cp h12"&gt;@LOCALPAGAMENTO&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="w198"&gt;
+            &lt;div class="ct h11"&gt;Vencimento&lt;/div&gt;
+            &lt;div class="cp h12 txtRight"&gt;@DATAVENCIMENTO&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</value>
   </data>
-  <data name="ReciboCedenteParte11" xml:space="preserve">
-    <value>&lt;table class="w666"&gt;
-				&lt;tr&gt;
-						&lt;td class="EcdBar Al pL10"&gt;@IMAGEMCODIGOBARRA&lt;/td&gt;
-				&lt;/tr&gt;
-		&lt;/table&gt;</value>
+  <data name="ReciboCedenteParte03" xml:space="preserve">
+    <value>&lt;!-- ReciboCedenteParte03 --&gt;
+&lt;table class="w792 barRight barLeft barBottom"&gt;
+    &lt;tr&gt;
+        &lt;td class="barRight"&gt;
+            &lt;div class="ct h11"&gt;Beneficiário&lt;/div&gt;
+            &lt;div class="cp h12"&gt;@CEDENTE_BOLETO&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="w198"&gt;
+            &lt;div class="ct h11"&gt;Agência/Código Beneficiário&lt;/div&gt;
+            &lt;div class="cp h12 txtRight"&gt;@AGENCIACONTA&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</value>
   </data>
-  <data name="ReciboCedenteParte12" xml:space="preserve">
-    <value>&lt;table class="ctN w666"&gt;
-				&lt;tr class="h13"&gt;&lt;td /&gt;&lt;/tr&gt;
-				&lt;tr&gt;&lt;td class="Ar"&gt;Corte na linha pontilhada&lt;/td&gt;&lt;/tr&gt;
-				&lt;tr&gt;&lt;td class="cut" /&gt;&lt;/tr&gt;
-		&lt;/table&gt;
-		&lt;table class="ctN w666"&gt;
-				&lt;tr class="h13"&gt;&lt;td /&gt;&lt;/tr&gt;
-				&lt;tr class="h13"&gt;&lt;td /&gt;&lt;/tr&gt;
-				&lt;tr class="h13"&gt;&lt;td /&gt;&lt;/tr&gt;
-				&lt;tr class="h13"&gt;&lt;td /&gt;&lt;/tr&gt;
-				&lt;tr class="h13"&gt;&lt;td /&gt;&lt;/tr&gt;
-				&lt;tr class="h13"&gt;&lt;td /&gt;&lt;/tr&gt;
-		&lt;/table&gt;</value>
+  <data name="ReciboCedenteParte04" xml:space="preserve">
+    <value>&lt;!-- ReciboCedenteParte04 --&gt;
+&lt;table class="w792 barRight barLeft barBottom"&gt;
+    &lt;tr&gt;
+        &lt;td class="w132 barRight"&gt;
+            &lt;div class="ct h11"&gt;Data do Documento&lt;/div&gt;
+            &lt;div class="cp h12"&gt;@DATADOCUMENTO&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="w165 barRight"&gt;
+            &lt;div class="ct h11"&gt;Nº do Documento&lt;/div&gt;
+            &lt;div class="cp h12"&gt;@NUMERODOCUMENTO&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="w99 barRight"&gt;
+            &lt;div class="ct h11"&gt;Espécie do Doc&lt;/div&gt;
+            &lt;div class="cp h12"&gt;@ESPECIEDOCUMENTO&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="barRight"&gt;
+            &lt;div class="ct h11"&gt;Aceite&lt;/div&gt;
+            &lt;div class="cp h12"&gt;@ACEITE&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="w132 barRight"&gt;
+            &lt;div class="ct h11"&gt;Data do Processamento&lt;/div&gt;
+            &lt;div class="cp h12"&gt;@DATAPROCESSAMENTO&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="w198 barRight"&gt;
+            &lt;div class="ct h11"&gt;Carteira/Nosso Número&lt;/div&gt;
+            &lt;div class="cp h12 txtRight"&gt;@NOSSONUMERO&lt;/div&gt;
+        &lt;/td&gt;
+
+    &lt;/tr&gt;
+&lt;/table&gt;</value>
   </data>
-  <data name="ReciboCedenteParte2" xml:space="preserve">
-    <value>&lt;table class="w666"&gt;
-				&lt;tr class="ct h13"&gt;
-						&lt;td class="w472"&gt;Local de pagamento&lt;/td&gt;
-						&lt;td class="w180"&gt;Vencimento&lt;/td&gt;
-				&lt;/tr&gt;
-				&lt;tr class="cp h12 rBb"&gt;
-						&lt;td&gt;@LOCALPAGAMENTO&lt;/td&gt;
-						&lt;td class="Ar"&gt;@DATAVENCIMENTO&lt;/td&gt;
-				&lt;/tr&gt;
-		&lt;/table&gt;</value>
+  <data name="ReciboCedenteParte05" xml:space="preserve">
+    <value>&lt;!-- ReciboCedenteParte05 --&gt;
+&lt;table class="w792 barRight barLeft barBottom"&gt;
+    &lt;tr&gt;
+        &lt;td class="w132 barRight"&gt;
+            &lt;div class="ct h11"&gt;Uso do Banco&lt;/div&gt;
+            &lt;div class="cp h12"&gt;&amp;nbsp;&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="w66 barRight"&gt;
+            &lt;div class="ct h11"&gt;C I P&lt;/div&gt;
+            &lt;div class="cp h12"&gt;&amp;nbsp;&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="w66 barRight"&gt;
+            &lt;div class="ct h11"&gt;Carteira&lt;/div&gt;
+            &lt;div class="cp h12"&gt;@CARTEIRA&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="w66 barRight"&gt;
+            &lt;div class="ct h11"&gt;Espécie&lt;/div&gt;
+            &lt;div class="cp h12"&gt;@ESPECIE&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="w131 barRight"&gt;
+            &lt;div class="ct h11"&gt;Quantidade&lt;/div&gt;
+            &lt;div class="cp h12"&gt;@QUANTIDADE&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="w131 barRight"&gt;
+            &lt;div class="ct h11"&gt;(x) Valor&lt;/div&gt;
+            &lt;div class="cp h12"&gt;@VALORDOCUMENTO&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="w198"&gt;
+            &lt;div class="ct h11"&gt;(=) Valor do Documento&lt;/div&gt;
+            &lt;div class="cp h12 txtRight"&gt;@=VALORDOCUMENTO&lt;/div&gt;
+        &lt;/td&gt;
+
+    &lt;/tr&gt;
+&lt;/table&gt;</value>
   </data>
-  <data name="ReciboCedenteParte3" xml:space="preserve">
-    <value>&lt;table class="w666"&gt;
-				&lt;tr class="ct h13"&gt;
-						&lt;td class="w472"&gt;Beneficiário&lt;/td&gt;
-						&lt;td class="w180"&gt;Agência / Código Beneficiário&lt;/td&gt;
-				&lt;/tr&gt;
-				&lt;tr class="cp h12 rBb"&gt;
-						&lt;td&gt;@CEDENTE_BOLETO&lt;/td&gt;
-						&lt;td class="Ar"&gt;@AGENCIACONTA&lt;/td&gt;
-				&lt;/tr&gt;
-		&lt;/table&gt;</value>
+  <data name="ReciboCedenteParte06" xml:space="preserve">
+    <value>&lt;!-- ReciboCedenteParte06 --&gt;
+&lt;table class="w792 barRight barLeft barBottom"&gt;
+    &lt;tr&gt;
+        &lt;td class="w594"&gt;
+            &lt;div class="ct h11"&gt;Instruções (Texto de responsabilidade do beneficiário)&lt;/div&gt;
+            &lt;div class="cp"&gt;@INSTRUCOES&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="w198 barLeft"&gt;
+            &lt;div class="ct h11"&gt;(-) Desconto/Abatimentos&lt;/div&gt;
+            &lt;div class="cp barBottom h12 txtRight"&gt;@DESCONTOS&lt;/div&gt;
+            &lt;div class="ct h11"&gt;(-) Outras Deduções&lt;/div&gt;
+            &lt;div class="cp  barBottom h12 txtRight"&gt;@OUTRASDEDUCOES&lt;/div&gt;
+            &lt;div class="ct h11"&gt;(+) Mora/Multa&lt;/div&gt;
+            &lt;div class="cp  barBottom h12 txtRight"&gt;@MORAMULTA&lt;/div&gt;
+            &lt;div class="ct h11"&gt;(+) Outros Acréscimos&lt;/div&gt;
+            &lt;div class="cp  barBottom h12 txtRight"&gt;@OUTROSACRESCIMOS&lt;/div&gt;
+            &lt;div class="ct h11"&gt;(=) Valor Cobrado&lt;/div&gt;
+            &lt;div class="cp h12 txtRight"&gt;@VALORCOBRADO&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</value>
   </data>
-  <data name="ReciboCedenteParte4" xml:space="preserve">
-    <value>&lt;table class="w666"&gt;
-				&lt;tr class="ct h13"&gt;
-						&lt;td class="w113"&gt;Data do documento&lt;/td&gt;
-						&lt;td class="w163"&gt;N&lt;u&gt;o&lt;/u&gt; documento&lt;/td&gt;
-						&lt;td class="w62"&gt;Espécie doc.&lt;/td&gt;
-						&lt;td class="w34"&gt;Aceite&lt;/td&gt;
-						&lt;td class="w72"&gt;Data processamento&lt;/td&gt;
-						&lt;td class="w180"&gt;Carteira / Nosso número&lt;/td&gt;
-				&lt;/tr&gt;
-				&lt;tr class="cp h12 rBb"&gt;
-						&lt;td&gt;@DATADOCUMENTO&lt;/td&gt;
-						&lt;td&gt;@NUMERODOCUMENTO&lt;/td&gt;
-						&lt;td&gt;@ESPECIEDOCUMENTO&lt;/td&gt;
-						&lt;td&gt;@ACEITE&lt;/td&gt;
-						&lt;td&gt;@DATAPROCESSAMENTO&lt;/td&gt;
-						&lt;td class="Ar"&gt;@NOSSONUMERO&lt;/td&gt;
-				&lt;/tr&gt;
-		&lt;/table&gt;</value>
+  <data name="ReciboCedenteParte07" xml:space="preserve">
+    <value>&lt;!-- ReciboCedenteParte07 --&gt;
+&lt;table class="w792 barRight barLeft barBottom"&gt;
+    &lt;tr&gt;
+        &lt;td&gt;
+            &lt;div class="ct h11"&gt;Pagador&lt;/div&gt;
+            &lt;div class="cp h12"&gt;
+                @SACADO&lt;br&gt;
+                @ENDERECOSACADO
+            &lt;/div&gt;
+        &lt;/td&gt;
+
+        &lt;td class="w198 vBottom"&gt;
+            &lt;div class="barLeft ct h11"&gt;Cód. de Baixa&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</value>
   </data>
-  <data name="ReciboCedenteParte5" xml:space="preserve">
-    <value>&lt;table class="w666"&gt;
-				&lt;tr class="ct h13"&gt;
-						&lt;td class="w72"&gt;Uso do banco&lt;/td&gt;
-						&lt;td class="w34"&gt;C I P&lt;/td&gt;
-						&lt;td class="w83"&gt;Carteira&lt;/td&gt;
-						&lt;td class="w53"&gt;Espécie&lt;/td&gt;
-						&lt;td class="w123"&gt;Quantidade&lt;/td&gt;
-						&lt;td class="w72"&gt;(x) Valor&lt;/td&gt;
-						&lt;td class="w180"&gt;(=) Valor documento&lt;/td&gt;
-				&lt;/tr&gt;
-				&lt;tr class="cp h12 rBb"&gt;
-						&lt;td&gt;&amp;nbsp;&lt;/td&gt;
-						&lt;td&gt;&amp;nbsp;&lt;/td&gt;
-						&lt;td class="Al"&gt;@CARTEIRA&lt;/td&gt;
-						&lt;td class="Al"&gt;@ESPECIE&lt;/td&gt;
-						&lt;td&gt;@QUANTIDADE&lt;/td&gt;
-						&lt;td&gt;@VALORDOCUMENTO&lt;/td&gt;
-						&lt;td class="Ar"&gt;@=VALORDOCUMENTO&lt;/td&gt;
-				&lt;/tr&gt;
-		&lt;/table&gt;</value>
+  <data name="ReciboCedenteParte08" xml:space="preserve">
+    <value>&lt;!-- ReciboCedenteParte08 --&gt;
+&lt;table class="w792"&gt;
+    &lt;tr class="ct h13"&gt;
+        &lt;td class=""&gt;Sacador/Avalista: &lt;b class="cp"&gt;@AVALISTA&lt;/b&gt;&lt;/td&gt;
+        &lt;td class="w297 txtRight"&gt;Autenticação mecânica - &lt;b&gt;Ficha de Compensação&lt;/b&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</value>
   </data>
-  <data name="ReciboCedenteParte6" xml:space="preserve">
-    <value>&lt;table class="w666"&gt;
-				&lt;tr class="rc6"&gt;
-						&lt;td class="w478"&gt;
-								&lt;div class="ctN pL10"&gt;Instruções (Texto de responsabilidade do beneficiário)&lt;/div&gt;
-								&lt;div class="cpN pL10"&gt;@INSTRUCOES&lt;/div&gt;
-						&lt;/td&gt;
-						&lt;td class="w186"&gt;
-								&lt;div class="t"&gt;(-) Desconto / Abatimentos&lt;/div&gt;
-								&lt;div class="c BB"&gt;@DESCONTOS&lt;/div&gt;
-								&lt;div class="t"&gt;(-) Outras deduções&lt;/div&gt;
-								&lt;div class="c BB"&gt;@OUTRASDEDUCOES&lt;/div&gt;
-								&lt;div class="t"&gt;(+) Mora / Multa&lt;/div&gt;
-								&lt;div class="c BB"&gt;@MORAMULTA&lt;/div&gt;
-								&lt;div class="t"&gt;(+) Outros acréscimos&lt;/div&gt;
-								&lt;div class="c BB"&gt;@OUTROSACRESCIMOS&lt;/div&gt;
-								&lt;div class="t"&gt;(=) Valor cobrado&lt;/div&gt;
-								&lt;div class="c"&gt;@VALORCOBRADO&lt;/div&gt;
-						&lt;/td&gt;
-				&lt;/tr&gt;
-		&lt;/table&gt;</value>
+  <data name="ReciboCedenteParte09" xml:space="preserve">
+    <value>&lt;!-- ReciboCedenteParte09 --&gt;
+&lt;div class="w792 codeBar"&gt;
+    @IMAGEMCODIGOBARRA
+&lt;/div&gt;</value>
   </data>
-  <data name="ReciboCedenteParte7" xml:space="preserve">
-    <value />
+  <data name="ReciboSacadoParte01" xml:space="preserve">
+    <value>&lt;!-- ReciboSacadoParte01 --&gt;
+&lt;table class="w792 bold header"&gt;
+    &lt;tr&gt;
+        &lt;td class="barRight w165  vMiddle"&gt;&lt;img class="logo" src="@URLIMAGEMLOGO" /&gt;&lt;/td&gt;
+        &lt;td class="barRight w66 codeBank txtCenter vMiddle"&gt;@CODIGOBANCO-@DIGITOBANCO&lt;/td&gt;
+        &lt;td class="txtRight vBottom"&gt;@LINHADIGITAVEL&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</value>
   </data>
-  <data name="ReciboCedenteParte8" xml:space="preserve">
-    <value>&lt;table class="w666"&gt;
-				&lt;tr class="ct h13"&gt;
-						&lt;td class="w659"&gt;Pagador&lt;/td&gt;
-				&lt;/tr&gt;
-				&lt;tr class="cp h12"&gt;
-						&lt;td class="At"&gt;@SACADO&lt;/td&gt;
-				&lt;/tr&gt;
-		&lt;/table&gt;</value>
+  <data name="ReciboSacadoParte02" xml:space="preserve">
+    <value>&lt;!-- ReciboSacadoParte02 --&gt;
+&lt;table class="w792 barRight barLeft barBottom"&gt;
+    &lt;tr&gt;
+        &lt;td class="w330 barRight"&gt;
+            &lt;div class="ct h11"&gt;Beneficiário&lt;/div&gt;
+            &lt;div class="cp h12"&gt;@CEDENTE&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="barRight w132"&gt;
+            &lt;div class="ct h11"&gt;Agência/Código do Beneficiário&lt;/div&gt;
+            &lt;div class="cp h12"&gt;@AGENCIACODIGOCEDENTE&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="barRight"&gt;
+            &lt;div class="ct h11"&gt;Espécie&lt;/div&gt;
+            &lt;div class="cp h12"&gt;@ESPECIE&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="barRight"&gt;
+            &lt;div class="ct h11"&gt;Quantidade&lt;/div&gt;
+            &lt;div class="cp h12"&gt;@QUANTIDADE&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="w198"&gt;
+            &lt;div class="ct h11"&gt;Carteira/Nosso Número&lt;/div&gt;
+            &lt;div class="cp h12"&gt;@NOSSONUMERO&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</value>
   </data>
-  <data name="ReciboCedenteParte9" xml:space="preserve">
-    <value>&lt;table class="w666"&gt;
-				&lt;tr class="rBb"&gt;
-						&lt;td class="w478 BL"&gt;
-								&lt;div class="cpN pL6"&gt;@ENDERECOSACADO&lt;/div&gt;
-						&lt;/td&gt;
-						&lt;td class="Ab BL"&gt;
-								&lt;div class="ctN pL6"&gt;Cód. baixa&lt;/div&gt;
-						&lt;/td&gt;
-				&lt;/tr&gt;
-		&lt;/table&gt;</value>
+  <data name="ReciboSacadoParte03" xml:space="preserve">
+    <value>&lt;!-- ReciboSacadoParte03 --&gt;
+&lt;table class="w792 barRight barLeft barBottom"&gt;
+    &lt;tr&gt;
+        &lt;td&gt;
+            &lt;div class="ct h11"&gt;Beneficiário Endereço/Sacador Avalista&lt;/div&gt;
+            &lt;div class="cp h12"&gt;@ENDERECOCEDENTE&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</value>
   </data>
-  <data name="ReciboSacadoParte1" xml:space="preserve">
-    <value>&lt;table class="w666"&gt;
-				&lt;tr&gt;
-						&lt;td class="ctN cut" /&gt;
-				&lt;/tr&gt;
-				&lt;tr&gt;
-						&lt;td class="cpN Ar"&gt;Recibo do Pagador&lt;/td&gt;
-				&lt;/tr&gt;
-		&lt;/table&gt;</value>
+  <data name="ReciboSacadoParte04" xml:space="preserve">
+    <value>&lt;!-- ReciboSacadoParte04 --&gt;
+&lt;table class="w792 barRight barLeft barBottom"&gt;
+    &lt;tr&gt;
+
+        &lt;td class="barRight w198"&gt;
+            &lt;div class="ct h11"&gt;Número do documento&lt;/div&gt;
+            &lt;div class="cp h12"&gt;@NUMERODOCUMENTO&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="barRight"&gt;
+            &lt;div class="ct h11"&gt;CPF/CNPJ&lt;/div&gt;
+            &lt;div class="cp h12"&gt;@CPFCNPJ&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="barRight w198"&gt;
+            &lt;div class="ct h11"&gt;Vencimento&lt;/div&gt;
+            &lt;div class="cp h12"&gt;@DATAVENCIMENTO&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="barRight w198"&gt;
+            &lt;div class="ct h11"&gt;Valor do Documento&lt;/div&gt;
+            &lt;div class="cp h12 txtRight"&gt;@=VALORDOCUMENTO&lt;/div&gt;
+        &lt;/td&gt;
+
+
+    &lt;/tr&gt;
+&lt;/table&gt;</value>
   </data>
-  <data name="ReciboSacadoParte2" xml:space="preserve">
-    <value>&lt;table class="w666"&gt;
-				&lt;tr class="BHead"&gt;
-						&lt;td class="imgLogo Al"&gt;&lt;img src="@URLIMGCEDENTE" /&gt;&lt;/td&gt;
-						&lt;td class="barra"&gt;&lt;img src="@URLIMAGEMBARRA" /&gt;&lt;/td&gt;
-						&lt;td class="w65 Ab bc Ac"&gt;@CODIGOBANCO-@DIGITOBANCO&lt;/td&gt;
-						&lt;td class="barra"&gt;&lt;img src="@URLIMAGEMBARRA" /&gt;&lt;/td&gt;
-						&lt;td class="w500 Ar Ab ld"&gt;@LINHADIGITAVEL&lt;/td&gt;
-				&lt;/tr&gt;
-		&lt;/table&gt;</value>
+  <data name="ReciboSacadoParte05" xml:space="preserve">
+    <value>&lt;!-- ReciboSacadoParte05 --&gt;
+&lt;table class="w792 barRight barLeft barBottom"&gt;
+    &lt;tr&gt;
+
+        &lt;td class="barRight w198"&gt;
+            &lt;div class="ct h11"&gt;(-) Desconto/Abatimentos&lt;/div&gt;
+            &lt;div class="cp h12 txtRight"&gt;@DESCONTOS&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="barRight w132"&gt;
+            &lt;div class="ct h11"&gt;(-) Outras Deduções&lt;/div&gt;
+            &lt;div class="cp h12 txtRight"&gt;@OUTRASDEDUCOES&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="barRight"&gt;
+            &lt;div class="ct h11"&gt;(+) Mora/Multa&lt;/div&gt;
+            &lt;div class="cp h12 txtRight"&gt;@MORAMULTA&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="barRight w132"&gt;
+            &lt;div class="ct h11"&gt;(+) Outros Acréscimos&lt;/div&gt;
+            &lt;div class="cp h12 txtRight"&gt;@OUTROSACRESCIMOS&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="w198"&gt;
+            &lt;div class="ct h11"&gt;(=) Valor Cobrado&lt;/div&gt;
+            &lt;div class="cp h12 txtRight"&gt;@VALORCOBRADO&lt;/div&gt;
+        &lt;/td&gt;
+
+    &lt;/tr&gt;
+&lt;/table&gt;</value>
   </data>
-  <data name="ReciboSacadoParte3" xml:space="preserve">
-    <value>&lt;table class="w666"&gt;
-				&lt;tr class="ct h13 At"&gt;
-						&lt;td class="w298"&gt;Beneficiário&lt;/td&gt;
-						&lt;td class="w126"&gt;Agência / Código do Beneficiário&lt;/td&gt;
-						&lt;td class="w34"&gt;Espécie&lt;/td&gt;
-						&lt;td class="w45"&gt;Quantidade&lt;/td&gt;
-						&lt;td class="w128"&gt;Carteira / Nosso número&lt;/td&gt;
-				&lt;/tr&gt;
-				&lt;tr class="cp h12 At rBb"&gt;
-						&lt;td&gt;@CEDENTE&lt;/td&gt;
-						&lt;td&gt;@AGENCIACODIGOCEDENTE&lt;/td&gt;
-						&lt;td&gt;@ESPECIE&lt;/td&gt;
-						&lt;td&gt;@QUANTIDADE&lt;/td&gt;
-						&lt;td class="Ar"&gt;@NOSSONUMERO&lt;/td&gt;
-				&lt;/tr&gt;
-		&lt;/table&gt;</value>
+  <data name="ReciboSacadoParte06" xml:space="preserve">
+    <value>&lt;!-- ReciboSacadoParte06 --&gt;
+&lt;table class="w792 barRight barLeft barBottom"&gt;
+    &lt;tr&gt;
+        &lt;td&gt;
+            &lt;div class="ct h11"&gt;Pagador&lt;/div&gt;
+            &lt;div class="cp h12"&gt;
+                @SACADO&lt;br&gt;
+                @ENDERECOSACADO
+            &lt;/div&gt;
+        &lt;/td&gt;
+
+        &lt;td class="w198 vBottom"&gt;
+            &lt;div class="barLeft ct h11"&gt;Cód. de Baixa&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</value>
   </data>
-  <data name="ReciboSacadoParte4" xml:space="preserve">
-    <value>&lt;table class="w666"&gt;
-				&lt;tr class="ct h13"&gt;
-						&lt;td class="w192"&gt;Número do documento&lt;/td&gt;
-						&lt;td class="w132"&gt;CPF/CNPJ&lt;/td&gt;
-						&lt;td class="w134"&gt;Vencimento&lt;/td&gt;
-						&lt;td class="w180"&gt;Valor documento&lt;/td&gt;
-				&lt;/tr&gt;
-				&lt;tr class="cp h12 rBb"&gt;
-						&lt;td&gt;@NUMERODOCUMENTO&lt;/td&gt;
-						&lt;td&gt;@CPFCNPJ&lt;/td&gt;
-						&lt;td&gt;@DATAVENCIMENTO&lt;/td&gt;
-						&lt;td class="Ar"&gt;@=VALORDOCUMENTO&lt;/td&gt;
-				&lt;/tr&gt;
-		&lt;/table&gt;</value>
-  </data>
-  <data name="ReciboSacadoParte5" xml:space="preserve">
-    <value>&lt;table class="w666"&gt;
-				&lt;tr class="ct h13"&gt;
-						&lt;td class="w113"&gt;(-) Desconto / Abatimentos&lt;/td&gt;
-						&lt;td class="w112"&gt;(-) Outras deduções&lt;/td&gt;
-						&lt;td class="w113"&gt;(+) Mora / Multa&lt;/td&gt;
-						&lt;td class="w113"&gt;(+) Outros acréscimos&lt;/td&gt;
-						&lt;td class="w180"&gt;(=) Valor cobrado&lt;/td&gt;
-				&lt;/tr&gt;
-				&lt;tr class="cp h12 rBb Ab"&gt;
-						&lt;td&gt;@DESCONTOS&lt;/td&gt;
-						&lt;td&gt;@OUTRASDEDUCOES&lt;/td&gt;
-						&lt;td&gt;@MORAMULTA&lt;/td&gt;
-						&lt;td&gt;@OUTROSACRESCIMOS&lt;/td&gt;
-						&lt;td class="Ar"&gt;&amp;nbsp;@VALORCOBRADO&lt;/td&gt;
-				&lt;/tr&gt;
-		&lt;/table&gt;</value>
-  </data>
-  <data name="ReciboSacadoParte6" xml:space="preserve">
-    <value>&lt;table class="w666"&gt;
-				&lt;tr class="ct h13"&gt;
-						&lt;td class="w659"&gt;Pagador&lt;/td&gt;
-				&lt;/tr&gt;
-				&lt;tr class="cp h12"&gt;
-						&lt;td&gt;@SACADO&lt;/td&gt;
-				&lt;/tr&gt;
-				&lt;tr class="cp h12 rBb"&gt;
-						&lt;td&gt;@ENDERECOSACADO&lt;/td&gt;
-				&lt;/tr&gt;
-		&lt;/table&gt;</value>
-  </data>
-  <data name="ReciboSacadoParte7" xml:space="preserve">
-    <value>&lt;table class="w666"&gt;
-				&lt;tr class="ctN h13"&gt;
-						&lt;td class="pL6"&gt;Instruções&lt;/td&gt;
-						&lt;td class="w180 Ar"&gt;Autenticação mecânica&lt;/td&gt;
-				&lt;/tr&gt;
-				&lt;tr class="cpN h12"&gt;
-						&lt;td class="pL6"&gt;@INSTRUCOES&lt;/td&gt;
-						&lt;td class="pL6 Ar"&gt;@AUTENTICACAOMECANICA&lt;/td&gt;
-				&lt;/tr&gt;
-		&lt;/table&gt;</value>
-  </data>
-  <data name="ReciboSacadoParte8" xml:space="preserve">
-    <value>&lt;table class="ctN w666"&gt;
-				&lt;tr class="h13"&gt;&lt;td /&gt;&lt;/tr&gt;
-				&lt;tr class="h13"&gt;&lt;td /&gt;&lt;/tr&gt;
-				&lt;tr&gt;&lt;td class="Ar"&gt;Corte na linha pontilhada&lt;/td&gt;&lt;/tr&gt;
-				&lt;tr&gt;&lt;td class="cut" /&gt;&lt;/tr&gt;
-				&lt;tr class="h13"&gt;&lt;td /&gt;&lt;/tr&gt;
-				&lt;tr class="h13"&gt;&lt;td /&gt;&lt;/tr&gt;
-		&lt;/table&gt;</value>
+  <data name="ReciboSacadoParte07" xml:space="preserve">
+    <value>&lt;!-- ReciboSacadoParte07 --&gt;
+&lt;table class="w792"&gt;
+    &lt;tr class="ct h13"&gt;
+        &lt;td class=""&gt;
+            &lt;div class="h11"&gt;Instruções&lt;/div&gt;
+            &lt;div class="h13"&gt;@INSTRUCOES&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td class="w192 txtRight"&gt;Autenticação mecânica&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</value>
   </data>
   <data name="ComprovanteEntrega71" xml:space="preserve">
     <value>&lt;table class="w666"&gt;
@@ -739,15 +762,5 @@
 								&lt;/td&gt;
 						&lt;/tr&gt;
 				&lt;/table&gt;</value>
-  </data>
-  <data name="ReciboSacadoParte10" xml:space="preserve">
-    <value>&lt;table class="w666"&gt;
-				&lt;tr class="ct h13"&gt;
-						&lt;td class="w659"&gt;Beneficiário Endereço / Sacador Avalista&lt;/td&gt;
-				&lt;/tr&gt;
-				&lt;tr class="cp h12 rBb"&gt;
-						&lt;td class="At"&gt;@ENDERECOCEDENTE&lt;/td&gt;
-				&lt;/tr&gt;
-		&lt;/table&gt;</value>
   </data>
 </root>

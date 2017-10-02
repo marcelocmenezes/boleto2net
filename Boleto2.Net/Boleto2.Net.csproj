@@ -125,7 +125,7 @@
     <Compile Include="Util\Utils.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="BoletoImpressao\BoletoNet.css" />
+    <None Include="BoletoImpressao\BoletoNet.css.bak" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Imagens\corte.gif" />
@@ -209,6 +209,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BoletoImpressao\BoletoNet.css" />
+    <Content Include="BoletoImpressao\HTML\ReciboCedente.html" />
+    <Content Include="BoletoImpressao\HTML\ReciboSacado.html" />
     <Content Include="Como Implementar um novo Banco ou Carteira.txt" />
   </ItemGroup>
   <ItemGroup />

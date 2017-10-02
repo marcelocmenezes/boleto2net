@@ -19,7 +19,7 @@ namespace Boleto2Net {
     // através de uma ferramenta como ResGen ou Visual Studio.
     // Para adicionar ou remover um associado, edite o arquivo .ResX e execute ResGen novamente
     // com a opção /str, ou recrie o projeto do VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Html {
@@ -309,6 +309,15 @@ namespace Boleto2Net {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;div class=&quot;cut w792 txtRight ct&quot;&gt;Corte na linha pontilhada&lt;/div&gt;.
+        /// </summary>
+        internal static string CorteLinha {
+            get {
+                return ResourceManager.GetString("CorteLinha", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a 
         ///				&lt;tr class=&quot;ct&quot;&gt;
         ///					&lt;td class=&quot;cp&quot;&gt;@DESCRICAOGRUPO&lt;/td&gt;
@@ -351,236 +360,176 @@ namespace Boleto2Net {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;table class=&quot;ctN w666&quot;&gt;
-        ///				&lt;tr&gt;
-        ///						&lt;td class=&quot;w666&quot; /&gt;
-        ///				&lt;/tr&gt;
-        ///				&lt;tr&gt;
-        ///						&lt;td class=&quot;Ar&quot;&gt;Corte na linha pontilhada&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///				&lt;tr&gt;
-        ///						&lt;td class=&quot;cut&quot; /&gt;
-        ///				&lt;/tr&gt;
-        ///		&lt;/table&gt;
-        ///		&lt;br /&gt;.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;!-- ReciboCedenteParte01 --&gt;
+        ///&lt;table class=&quot;w792 bold header&quot;&gt;
+        ///    &lt;tr&gt;
+        ///        &lt;td class=&quot;barRight w165  vMiddle&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;@URLIMAGEMLOGO&quot; /&gt;&lt;/td&gt;
+        ///        &lt;td class=&quot;barRight w66 codeBank txtCenter vMiddle&quot;&gt;@CODIGOBANCO-@DIGITOBANCO&lt;/td&gt;
+        ///        &lt;td class=&quot;txtRight vBottom&quot;&gt;@LINHADIGITAVEL&lt;/td&gt;
+        ///    &lt;/tr&gt;
+        ///&lt;/table&gt;.
         /// </summary>
-        internal static string ReciboCedenteParte0 {
+        internal static string ReciboCedenteParte01 {
             get {
-                return ResourceManager.GetString("ReciboCedenteParte0", resourceCulture);
+                return ResourceManager.GetString("ReciboCedenteParte01", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;table class=&quot;w666&quot;&gt;
-        ///				&lt;tr class=&quot;BHead&quot;&gt;
-        ///						&lt;td class=&quot;imgLogo Al&quot;&gt;&lt;img src=&quot;@URLIMAGEMLOGO&quot; /&gt;&lt;/td&gt;
-        ///						&lt;td class=&quot;barra&quot;&gt;&lt;img src=&quot;@URLIMAGEMBARRA&quot; /&gt;&lt;/td&gt;
-        ///						&lt;td class=&quot;w65 Ab bc Ac&quot;&gt;@CODIGOBANCO-@DIGITOBANCO&lt;/td&gt;
-        ///						&lt;td class=&quot;barra&quot;&gt;&lt;img src=&quot;@URLIMAGEMBARRA&quot; /&gt;&lt;/td&gt;
-        ///						&lt;td class=&quot;w500 Ar ld&quot; valign=&quot;bottom&quot;&gt;@LINHADIGITAVEL&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///		&lt;/table&gt;.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;!-- ReciboCedenteParte02 --&gt;
+        ///&lt;table class=&quot;w792 barRight barLeft barBottom&quot;&gt;
+        ///    &lt;tr&gt;
+        ///        &lt;td class=&quot;barRight&quot;&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;Local de Pagamento&lt;/div&gt;
+        ///            &lt;div class=&quot;cp h12&quot;&gt;@LOCALPAGAMENTO&lt;/div&gt;
+        ///        &lt;/td&gt;
+        ///        &lt;td class=&quot;w198&quot;&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;Vencimento&lt;/div&gt;
+        ///            &lt;div class=&quot;cp h12 txtRight&quot;&gt;@DATAVENCIMENTO&lt;/div&gt;
+        ///        &lt;/td&gt;
+        ///    &lt;/tr&gt;
+        ///&lt;/table&gt;.
         /// </summary>
-        internal static string ReciboCedenteParte1 {
+        internal static string ReciboCedenteParte02 {
             get {
-                return ResourceManager.GetString("ReciboCedenteParte1", resourceCulture);
+                return ResourceManager.GetString("ReciboCedenteParte02", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;table class=&quot;w666 ctN&quot;&gt;
-        ///				&lt;tr&gt;
-        ///						&lt;td class=&quot;pL6  w409&quot;&gt;Sacador / Avalista &lt;b class=&quot;cpN&quot;&gt;@AVALISTA&lt;/b&gt;&lt;/td&gt;
-        ///						&lt;td class=&quot;w250 Ar&quot;&gt;Autenticação mecânica - &lt;b class=&quot;cpN&quot;&gt;Ficha de Compensação&lt;/b&gt;&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///				&lt;tr class=&quot;h13&quot;&gt;&lt;td colspan=&quot;3&quot; /&gt;&lt;/tr&gt;
-        ///		&lt;/table&gt;.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;!-- ReciboCedenteParte03 --&gt;
+        ///&lt;table class=&quot;w792 barRight barLeft barBottom&quot;&gt;
+        ///    &lt;tr&gt;
+        ///        &lt;td class=&quot;barRight&quot;&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;Beneficiário&lt;/div&gt;
+        ///            &lt;div class=&quot;cp h12&quot;&gt;@CEDENTE_BOLETO&lt;/div&gt;
+        ///        &lt;/td&gt;
+        ///        &lt;td class=&quot;w198&quot;&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;Agência/Código Beneficiário&lt;/div&gt;
+        ///            &lt;div class=&quot;cp h12 txtRight&quot;&gt;@AGENCIACONTA&lt;/div&gt;
+        ///        &lt;/td&gt;
+        ///    &lt;/tr&gt;
+        ///&lt;/table&gt;.
         /// </summary>
-        internal static string ReciboCedenteParte10 {
+        internal static string ReciboCedenteParte03 {
             get {
-                return ResourceManager.GetString("ReciboCedenteParte10", resourceCulture);
+                return ResourceManager.GetString("ReciboCedenteParte03", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;table class=&quot;w666&quot;&gt;
-        ///				&lt;tr&gt;
-        ///						&lt;td class=&quot;EcdBar Al pL10&quot;&gt;@IMAGEMCODIGOBARRA&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///		&lt;/table&gt;.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;!-- ReciboCedenteParte04 --&gt;
+        ///&lt;table class=&quot;w792 barRight barLeft barBottom&quot;&gt;
+        ///    &lt;tr&gt;
+        ///        &lt;td class=&quot;w132 barRight&quot;&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;Data do Documento&lt;/div&gt;
+        ///            &lt;div class=&quot;cp h12&quot;&gt;@DATADOCUMENTO&lt;/div&gt;
+        ///        &lt;/td&gt;
+        ///        &lt;td class=&quot;w165 barRight&quot;&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;Nº do Documento&lt;/div&gt;
+        ///            &lt;div class=&quot;cp h12&quot;&gt;@NUMERODOCUMENTO&lt;/div&gt;
+        ///        &lt;/td&gt;
+        ///        &lt;td class=&quot;w99 barRight&quot;&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;Espécie do Doc&lt;/div&gt;
+        ///          [o restante da cadeia de caracteres foi truncado]&quot;;.
         /// </summary>
-        internal static string ReciboCedenteParte11 {
+        internal static string ReciboCedenteParte04 {
             get {
-                return ResourceManager.GetString("ReciboCedenteParte11", resourceCulture);
+                return ResourceManager.GetString("ReciboCedenteParte04", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;table class=&quot;ctN w666&quot;&gt;
-        ///				&lt;tr class=&quot;h13&quot;&gt;&lt;td /&gt;&lt;/tr&gt;
-        ///				&lt;tr&gt;&lt;td class=&quot;Ar&quot;&gt;Corte na linha pontilhada&lt;/td&gt;&lt;/tr&gt;
-        ///				&lt;tr&gt;&lt;td class=&quot;cut&quot; /&gt;&lt;/tr&gt;
-        ///		&lt;/table&gt;
-        ///		&lt;table class=&quot;ctN w666&quot;&gt;
-        ///				&lt;tr class=&quot;h13&quot;&gt;&lt;td /&gt;&lt;/tr&gt;
-        ///				&lt;tr class=&quot;h13&quot;&gt;&lt;td /&gt;&lt;/tr&gt;
-        ///				&lt;tr class=&quot;h13&quot;&gt;&lt;td /&gt;&lt;/tr&gt;
-        ///				&lt;tr class=&quot;h13&quot;&gt;&lt;td /&gt;&lt;/tr&gt;
-        ///				&lt;tr class=&quot;h13&quot;&gt;&lt;td /&gt;&lt;/tr&gt;
-        ///				&lt;tr class=&quot;h13&quot;&gt;&lt;td /&gt;&lt;/tr&gt;
-        ///		&lt;/table&gt;.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;!-- ReciboCedenteParte05 --&gt;
+        ///&lt;table class=&quot;w792 barRight barLeft barBottom&quot;&gt;
+        ///    &lt;tr&gt;
+        ///        &lt;td class=&quot;w132 barRight&quot;&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;Uso do Banco&lt;/div&gt;
+        ///            &lt;div class=&quot;cp h12&quot;&gt;&amp;nbsp;&lt;/div&gt;
+        ///        &lt;/td&gt;
+        ///        &lt;td class=&quot;w66 barRight&quot;&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;C I P&lt;/div&gt;
+        ///            &lt;div class=&quot;cp h12&quot;&gt;&amp;nbsp;&lt;/div&gt;
+        ///        &lt;/td&gt;
+        ///        &lt;td class=&quot;w66 barRight&quot;&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;Carteira&lt;/div&gt;
+        ///            &lt;div class=&quot;cp h12&quot;&gt;@CARTEIRA&lt;/div&gt;
+        /// [o restante da cadeia de caracteres foi truncado]&quot;;.
         /// </summary>
-        internal static string ReciboCedenteParte12 {
+        internal static string ReciboCedenteParte05 {
             get {
-                return ResourceManager.GetString("ReciboCedenteParte12", resourceCulture);
+                return ResourceManager.GetString("ReciboCedenteParte05", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;table class=&quot;w666&quot;&gt;
-        ///				&lt;tr class=&quot;ct h13&quot;&gt;
-        ///						&lt;td class=&quot;w472&quot;&gt;Local de pagamento&lt;/td&gt;
-        ///						&lt;td class=&quot;w180&quot;&gt;Vencimento&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///				&lt;tr class=&quot;cp h12 rBb&quot;&gt;
-        ///						&lt;td&gt;@LOCALPAGAMENTO&lt;/td&gt;
-        ///						&lt;td class=&quot;Ar&quot;&gt;@DATAVENCIMENTO&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///		&lt;/table&gt;.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;!-- ReciboCedenteParte06 --&gt;
+        ///&lt;table class=&quot;w792 barRight barLeft barBottom&quot;&gt;
+        ///    &lt;tr&gt;
+        ///        &lt;td class=&quot;w594&quot;&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;Instruções (Texto de responsabilidade do beneficiário)&lt;/div&gt;
+        ///            &lt;div class=&quot;cp&quot;&gt;@INSTRUCOES&lt;/div&gt;
+        ///        &lt;/td&gt;
+        ///        &lt;td class=&quot;w198 barLeft&quot;&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;(-) Desconto/Abatimentos&lt;/div&gt;
+        ///            &lt;div class=&quot;cp barBottom h12 txtRight&quot;&gt;@DESCONTOS&lt;/div&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;(-) Outras Deduções&lt;/div&gt;
+        ///             [o restante da cadeia de caracteres foi truncado]&quot;;.
         /// </summary>
-        internal static string ReciboCedenteParte2 {
+        internal static string ReciboCedenteParte06 {
             get {
-                return ResourceManager.GetString("ReciboCedenteParte2", resourceCulture);
+                return ResourceManager.GetString("ReciboCedenteParte06", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;table class=&quot;w666&quot;&gt;
-        ///				&lt;tr class=&quot;ct h13&quot;&gt;
-        ///						&lt;td class=&quot;w472&quot;&gt;Beneficiário&lt;/td&gt;
-        ///						&lt;td class=&quot;w180&quot;&gt;Agência / Código Beneficiário&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///				&lt;tr class=&quot;cp h12 rBb&quot;&gt;
-        ///						&lt;td&gt;@CEDENTE_BOLETO&lt;/td&gt;
-        ///						&lt;td class=&quot;Ar&quot;&gt;@AGENCIACONTA&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///		&lt;/table&gt;.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;!-- ReciboCedenteParte07 --&gt;
+        ///&lt;table class=&quot;w792 barRight barLeft barBottom&quot;&gt;
+        ///    &lt;tr&gt;
+        ///        &lt;td&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;Pagador&lt;/div&gt;
+        ///            &lt;div class=&quot;cp h12&quot;&gt;
+        ///                @SACADO&lt;br&gt;
+        ///                @ENDERECOSACADO
+        ///            &lt;/div&gt;
+        ///        &lt;/td&gt;
+        ///
+        ///        &lt;td class=&quot;w198 vBottom&quot;&gt;
+        ///            &lt;div class=&quot;barLeft ct h11&quot;&gt;Cód. de Baixa&lt;/div&gt;
+        ///        &lt;/td&gt;
+        ///    &lt;/tr&gt;
+        ///&lt;/table&gt;.
         /// </summary>
-        internal static string ReciboCedenteParte3 {
+        internal static string ReciboCedenteParte07 {
             get {
-                return ResourceManager.GetString("ReciboCedenteParte3", resourceCulture);
+                return ResourceManager.GetString("ReciboCedenteParte07", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;table class=&quot;w666&quot;&gt;
-        ///				&lt;tr class=&quot;ct h13&quot;&gt;
-        ///						&lt;td class=&quot;w113&quot;&gt;Data do documento&lt;/td&gt;
-        ///						&lt;td class=&quot;w163&quot;&gt;N&lt;u&gt;o&lt;/u&gt; documento&lt;/td&gt;
-        ///						&lt;td class=&quot;w62&quot;&gt;Espécie doc.&lt;/td&gt;
-        ///						&lt;td class=&quot;w34&quot;&gt;Aceite&lt;/td&gt;
-        ///						&lt;td class=&quot;w72&quot;&gt;Data processamento&lt;/td&gt;
-        ///						&lt;td class=&quot;w180&quot;&gt;Carteira / Nosso número&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///				&lt;tr class=&quot;cp h12 rBb&quot;&gt;
-        ///						&lt;td&gt;@DATADOCUMENTO&lt;/td&gt;
-        ///						&lt;td&gt;@NUMERODOCUMENTO&lt;/td&gt;
-        ///						&lt;td&gt;@ESPECIEDOCUMENTO&lt;/td&gt;
-        ///						&lt;td&gt;@ACEITE&lt;/td&gt;
-        ///						&lt;td&gt;@DATAPROCESSAMENTO&lt;/t [o restante da cadeia de caracteres foi truncado]&quot;;.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;!-- ReciboCedenteParte08 --&gt;
+        ///&lt;table class=&quot;w792&quot;&gt;
+        ///    &lt;tr class=&quot;ct h13&quot;&gt;
+        ///        &lt;td class=&quot;&quot;&gt;Sacador/Avalista: &lt;b class=&quot;cp&quot;&gt;@AVALISTA&lt;/b&gt;&lt;/td&gt;
+        ///        &lt;td class=&quot;w297 txtRight&quot;&gt;Autenticação mecânica - &lt;b&gt;Ficha de Compensação&lt;/b&gt;&lt;/td&gt;
+        ///    &lt;/tr&gt;
+        ///&lt;/table&gt;.
         /// </summary>
-        internal static string ReciboCedenteParte4 {
+        internal static string ReciboCedenteParte08 {
             get {
-                return ResourceManager.GetString("ReciboCedenteParte4", resourceCulture);
+                return ResourceManager.GetString("ReciboCedenteParte08", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;table class=&quot;w666&quot;&gt;
-        ///				&lt;tr class=&quot;ct h13&quot;&gt;
-        ///						&lt;td class=&quot;w72&quot;&gt;Uso do banco&lt;/td&gt;
-        ///						&lt;td class=&quot;w34&quot;&gt;C I P&lt;/td&gt;
-        ///						&lt;td class=&quot;w83&quot;&gt;Carteira&lt;/td&gt;
-        ///						&lt;td class=&quot;w53&quot;&gt;Espécie&lt;/td&gt;
-        ///						&lt;td class=&quot;w123&quot;&gt;Quantidade&lt;/td&gt;
-        ///						&lt;td class=&quot;w72&quot;&gt;(x) Valor&lt;/td&gt;
-        ///						&lt;td class=&quot;w180&quot;&gt;(=) Valor documento&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///				&lt;tr class=&quot;cp h12 rBb&quot;&gt;
-        ///						&lt;td&gt;&amp;nbsp;&lt;/td&gt;
-        ///						&lt;td&gt;&amp;nbsp;&lt;/td&gt;
-        ///						&lt;td class=&quot;Al&quot;&gt;@CARTEIRA&lt;/td&gt;
-        ///						&lt;td class=&quot;Al&quot;&gt;@ESPECIE&lt;/td&gt;
-        ///						&lt;td&gt;@QUANTIDADE&lt;/td&gt;
-        ///			 [o restante da cadeia de caracteres foi truncado]&quot;;.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;!-- ReciboCedenteParte09 --&gt;
+        ///&lt;div class=&quot;w792 codeBar&quot;&gt;
+        ///    @IMAGEMCODIGOBARRA
+        ///&lt;/div&gt;.
         /// </summary>
-        internal static string ReciboCedenteParte5 {
+        internal static string ReciboCedenteParte09 {
             get {
-                return ResourceManager.GetString("ReciboCedenteParte5", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;table class=&quot;w666&quot;&gt;
-        ///				&lt;tr class=&quot;rc6&quot;&gt;
-        ///						&lt;td class=&quot;w478&quot;&gt;
-        ///								&lt;div class=&quot;ctN pL10&quot;&gt;Instruções (Texto de responsabilidade do beneficiário)&lt;/div&gt;
-        ///								&lt;div class=&quot;cpN pL10&quot;&gt;@INSTRUCOES&lt;/div&gt;
-        ///						&lt;/td&gt;
-        ///						&lt;td class=&quot;w186&quot;&gt;
-        ///								&lt;div class=&quot;t&quot;&gt;(-) Desconto / Abatimentos&lt;/div&gt;
-        ///								&lt;div class=&quot;c BB&quot;&gt;@DESCONTOS&lt;/div&gt;
-        ///								&lt;div class=&quot;t&quot;&gt;(-) Outras deduções&lt;/div&gt;
-        ///								&lt;div class=&quot;c BB&quot;&gt;@OUTRASDEDUCOES&lt;/div&gt;
-        ///								&lt;div class=&quot;t&quot;&gt;(+) Mora / Multa&lt;/div&gt;
-        ///								&lt;div clas [o restante da cadeia de caracteres foi truncado]&quot;;.
-        /// </summary>
-        internal static string ReciboCedenteParte6 {
-            get {
-                return ResourceManager.GetString("ReciboCedenteParte6", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a .
-        /// </summary>
-        internal static string ReciboCedenteParte7 {
-            get {
-                return ResourceManager.GetString("ReciboCedenteParte7", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;table class=&quot;w666&quot;&gt;
-        ///				&lt;tr class=&quot;ct h13&quot;&gt;
-        ///						&lt;td class=&quot;w659&quot;&gt;Pagador&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///				&lt;tr class=&quot;cp h12&quot;&gt;
-        ///						&lt;td class=&quot;At&quot;&gt;@SACADO&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///		&lt;/table&gt;.
-        /// </summary>
-        internal static string ReciboCedenteParte8 {
-            get {
-                return ResourceManager.GetString("ReciboCedenteParte8", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;table class=&quot;w666&quot;&gt;
-        ///				&lt;tr class=&quot;rBb&quot;&gt;
-        ///						&lt;td class=&quot;w478 BL&quot;&gt;
-        ///								&lt;div class=&quot;cpN pL6&quot;&gt;@ENDERECOSACADO&lt;/div&gt;
-        ///						&lt;/td&gt;
-        ///						&lt;td class=&quot;Ab BL&quot;&gt;
-        ///								&lt;div class=&quot;ctN pL6&quot;&gt;Cód. baixa&lt;/div&gt;
-        ///						&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///		&lt;/table&gt;.
-        /// </summary>
-        internal static string ReciboCedenteParte9 {
-            get {
-                return ResourceManager.GetString("ReciboCedenteParte9", resourceCulture);
+                return ResourceManager.GetString("ReciboCedenteParte09", resourceCulture);
             }
         }
         
@@ -608,173 +557,144 @@ namespace Boleto2Net {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;table class=&quot;w666&quot;&gt;
-        ///				&lt;tr&gt;
-        ///						&lt;td class=&quot;ctN cut&quot; /&gt;
-        ///				&lt;/tr&gt;
-        ///				&lt;tr&gt;
-        ///						&lt;td class=&quot;cpN Ar&quot;&gt;Recibo do Pagador&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///		&lt;/table&gt;.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;!-- ReciboSacadoParte01 --&gt;
+        ///&lt;table class=&quot;w792 bold header&quot;&gt;
+        ///    &lt;tr&gt;
+        ///        &lt;td class=&quot;barRight w165  vMiddle&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;@URLIMAGEMLOGO&quot; /&gt;&lt;/td&gt;
+        ///        &lt;td class=&quot;barRight w66 codeBank txtCenter vMiddle&quot;&gt;@CODIGOBANCO-@DIGITOBANCO&lt;/td&gt;
+        ///        &lt;td class=&quot;txtRight vBottom&quot;&gt;@LINHADIGITAVEL&lt;/td&gt;
+        ///    &lt;/tr&gt;
+        ///&lt;/table&gt;.
         /// </summary>
-        internal static string ReciboSacadoParte1 {
+        internal static string ReciboSacadoParte01 {
             get {
-                return ResourceManager.GetString("ReciboSacadoParte1", resourceCulture);
+                return ResourceManager.GetString("ReciboSacadoParte01", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;table class=&quot;w666&quot;&gt;
-        ///				&lt;tr class=&quot;ct h13&quot;&gt;
-        ///						&lt;td class=&quot;w659&quot;&gt;Beneficiário Endereço / Sacador Avalista&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///				&lt;tr class=&quot;cp h12 rBb&quot;&gt;
-        ///						&lt;td class=&quot;At&quot;&gt;@ENDERECOCEDENTE&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///		&lt;/table&gt;.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;!-- ReciboSacadoParte02 --&gt;
+        ///&lt;table class=&quot;w792 barRight barLeft barBottom&quot;&gt;
+        ///    &lt;tr&gt;
+        ///        &lt;td class=&quot;w330 barRight&quot;&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;Beneficiário&lt;/div&gt;
+        ///            &lt;div class=&quot;cp h12&quot;&gt;@CEDENTE&lt;/div&gt;
+        ///        &lt;/td&gt;
+        ///        &lt;td class=&quot;barRight w132&quot;&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;Agência/Código do Beneficiário&lt;/div&gt;
+        ///            &lt;div class=&quot;cp h12&quot;&gt;@AGENCIACODIGOCEDENTE&lt;/div&gt;
+        ///        &lt;/td&gt;
+        ///        &lt;td class=&quot;barRight&quot;&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;Espécie&lt;/div&gt;
+        ///             [o restante da cadeia de caracteres foi truncado]&quot;;.
         /// </summary>
-        internal static string ReciboSacadoParte10 {
+        internal static string ReciboSacadoParte02 {
             get {
-                return ResourceManager.GetString("ReciboSacadoParte10", resourceCulture);
+                return ResourceManager.GetString("ReciboSacadoParte02", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;table class=&quot;w666&quot;&gt;
-        ///				&lt;tr class=&quot;BHead&quot;&gt;
-        ///						&lt;td class=&quot;imgLogo Al&quot;&gt;&lt;img src=&quot;@URLIMGCEDENTE&quot; /&gt;&lt;/td&gt;
-        ///						&lt;td class=&quot;barra&quot;&gt;&lt;img src=&quot;@URLIMAGEMBARRA&quot; /&gt;&lt;/td&gt;
-        ///						&lt;td class=&quot;w65 Ab bc Ac&quot;&gt;@CODIGOBANCO-@DIGITOBANCO&lt;/td&gt;
-        ///						&lt;td class=&quot;barra&quot;&gt;&lt;img src=&quot;@URLIMAGEMBARRA&quot; /&gt;&lt;/td&gt;
-        ///						&lt;td class=&quot;w500 Ar Ab ld&quot;&gt;@LINHADIGITAVEL&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///		&lt;/table&gt;.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;!-- ReciboSacadoParte03 --&gt;
+        ///&lt;table class=&quot;w792 barRight barLeft barBottom&quot;&gt;
+        ///    &lt;tr&gt;
+        ///        &lt;td&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;Beneficiário Endereço/Sacador Avalista&lt;/div&gt;
+        ///            &lt;div class=&quot;cp h12&quot;&gt;@ENDERECOCEDENTE&lt;/div&gt;
+        ///        &lt;/td&gt;
+        ///    &lt;/tr&gt;
+        ///&lt;/table&gt;.
         /// </summary>
-        internal static string ReciboSacadoParte2 {
+        internal static string ReciboSacadoParte03 {
             get {
-                return ResourceManager.GetString("ReciboSacadoParte2", resourceCulture);
+                return ResourceManager.GetString("ReciboSacadoParte03", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;table class=&quot;w666&quot;&gt;
-        ///				&lt;tr class=&quot;ct h13 At&quot;&gt;
-        ///						&lt;td class=&quot;w298&quot;&gt;Beneficiário&lt;/td&gt;
-        ///						&lt;td class=&quot;w126&quot;&gt;Agência / Código do Beneficiário&lt;/td&gt;
-        ///						&lt;td class=&quot;w34&quot;&gt;Espécie&lt;/td&gt;
-        ///						&lt;td class=&quot;w45&quot;&gt;Quantidade&lt;/td&gt;
-        ///						&lt;td class=&quot;w128&quot;&gt;Carteira / Nosso número&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///				&lt;tr class=&quot;cp h12 At rBb&quot;&gt;
-        ///						&lt;td&gt;@CEDENTE&lt;/td&gt;
-        ///						&lt;td&gt;@AGENCIACODIGOCEDENTE&lt;/td&gt;
-        ///						&lt;td&gt;@ESPECIE&lt;/td&gt;
-        ///						&lt;td&gt;@QUANTIDADE&lt;/td&gt;
-        ///						&lt;td class=&quot;Ar&quot;&gt;@NOSSONUMERO&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///		&lt;/table&gt;.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;!-- ReciboSacadoParte04 --&gt;
+        ///&lt;table class=&quot;w792 barRight barLeft barBottom&quot;&gt;
+        ///    &lt;tr&gt;
+        ///
+        ///        &lt;td class=&quot;barRight w198&quot;&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;Número do documento&lt;/div&gt;
+        ///            &lt;div class=&quot;cp h12&quot;&gt;@NUMERODOCUMENTO&lt;/div&gt;
+        ///        &lt;/td&gt;
+        ///        &lt;td class=&quot;barRight&quot;&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;CPF/CNPJ&lt;/div&gt;
+        ///            &lt;div class=&quot;cp h12&quot;&gt;@CPFCNPJ&lt;/div&gt;
+        ///        &lt;/td&gt;
+        ///        &lt;td class=&quot;barRight w198&quot;&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;Vencimento&lt;/div&gt;
+        ///            &lt;div class=&quot;cp  [o restante da cadeia de caracteres foi truncado]&quot;;.
         /// </summary>
-        internal static string ReciboSacadoParte3 {
+        internal static string ReciboSacadoParte04 {
             get {
-                return ResourceManager.GetString("ReciboSacadoParte3", resourceCulture);
+                return ResourceManager.GetString("ReciboSacadoParte04", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;table class=&quot;w666&quot;&gt;
-        ///				&lt;tr class=&quot;ct h13&quot;&gt;
-        ///						&lt;td class=&quot;w192&quot;&gt;Número do documento&lt;/td&gt;
-        ///						&lt;td class=&quot;w132&quot;&gt;CPF/CNPJ&lt;/td&gt;
-        ///						&lt;td class=&quot;w134&quot;&gt;Vencimento&lt;/td&gt;
-        ///						&lt;td class=&quot;w180&quot;&gt;Valor documento&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///				&lt;tr class=&quot;cp h12 rBb&quot;&gt;
-        ///						&lt;td&gt;@NUMERODOCUMENTO&lt;/td&gt;
-        ///						&lt;td&gt;@CPFCNPJ&lt;/td&gt;
-        ///						&lt;td&gt;@DATAVENCIMENTO&lt;/td&gt;
-        ///						&lt;td class=&quot;Ar&quot;&gt;@=VALORDOCUMENTO&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///		&lt;/table&gt;.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;!-- ReciboSacadoParte05 --&gt;
+        ///&lt;table class=&quot;w792 barRight barLeft barBottom&quot;&gt;
+        ///    &lt;tr&gt;
+        ///
+        ///        &lt;td class=&quot;barRight w198&quot;&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;(-) Desconto/Abatimentos&lt;/div&gt;
+        ///            &lt;div class=&quot;cp h12 txtRight&quot;&gt;@DESCONTOS&lt;/div&gt;
+        ///        &lt;/td&gt;
+        ///        &lt;td class=&quot;barRight w132&quot;&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;(-) Outras Deduções&lt;/div&gt;
+        ///            &lt;div class=&quot;cp h12 txtRight&quot;&gt;@OUTRASDEDUCOES&lt;/div&gt;
+        ///        &lt;/td&gt;
+        ///        &lt;td class=&quot;barRight&quot;&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;(+) Mora/M [o restante da cadeia de caracteres foi truncado]&quot;;.
         /// </summary>
-        internal static string ReciboSacadoParte4 {
+        internal static string ReciboSacadoParte05 {
             get {
-                return ResourceManager.GetString("ReciboSacadoParte4", resourceCulture);
+                return ResourceManager.GetString("ReciboSacadoParte05", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;table class=&quot;w666&quot;&gt;
-        ///				&lt;tr class=&quot;ct h13&quot;&gt;
-        ///						&lt;td class=&quot;w113&quot;&gt;(-) Desconto / Abatimentos&lt;/td&gt;
-        ///						&lt;td class=&quot;w112&quot;&gt;(-) Outras deduções&lt;/td&gt;
-        ///						&lt;td class=&quot;w113&quot;&gt;(+) Mora / Multa&lt;/td&gt;
-        ///						&lt;td class=&quot;w113&quot;&gt;(+) Outros acréscimos&lt;/td&gt;
-        ///						&lt;td class=&quot;w180&quot;&gt;(=) Valor cobrado&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///				&lt;tr class=&quot;cp h12 rBb Ab&quot;&gt;
-        ///						&lt;td&gt;@DESCONTOS&lt;/td&gt;
-        ///						&lt;td&gt;@OUTRASDEDUCOES&lt;/td&gt;
-        ///						&lt;td&gt;@MORAMULTA&lt;/td&gt;
-        ///						&lt;td&gt;@OUTROSACRESCIMOS&lt;/td&gt;
-        ///						&lt;td class=&quot;Ar&quot;&gt;&amp;nbsp;@VALORCOBRADO&lt;/td&gt;
-        ///				&lt;/ [o restante da cadeia de caracteres foi truncado]&quot;;.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;!-- ReciboSacadoParte06 --&gt;
+        ///&lt;table class=&quot;w792 barRight barLeft barBottom&quot;&gt;
+        ///    &lt;tr&gt;
+        ///        &lt;td&gt;
+        ///            &lt;div class=&quot;ct h11&quot;&gt;Pagador&lt;/div&gt;
+        ///            &lt;div class=&quot;cp h12&quot;&gt;
+        ///                @SACADO&lt;br&gt;
+        ///                @ENDERECOSACADO
+        ///            &lt;/div&gt;
+        ///        &lt;/td&gt;
+        ///
+        ///        &lt;td class=&quot;w198 vBottom&quot;&gt;
+        ///            &lt;div class=&quot;barLeft ct h11&quot;&gt;Cód. de Baixa&lt;/div&gt;
+        ///        &lt;/td&gt;
+        ///    &lt;/tr&gt;
+        ///&lt;/table&gt;.
         /// </summary>
-        internal static string ReciboSacadoParte5 {
+        internal static string ReciboSacadoParte06 {
             get {
-                return ResourceManager.GetString("ReciboSacadoParte5", resourceCulture);
+                return ResourceManager.GetString("ReciboSacadoParte06", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;table class=&quot;w666&quot;&gt;
-        ///				&lt;tr class=&quot;ct h13&quot;&gt;
-        ///						&lt;td class=&quot;w659&quot;&gt;Pagador&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///				&lt;tr class=&quot;cp h12&quot;&gt;
-        ///						&lt;td&gt;@SACADO&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///				&lt;tr class=&quot;cp h12 rBb&quot;&gt;
-        ///						&lt;td&gt;@ENDERECOSACADO&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///		&lt;/table&gt;.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;!-- ReciboSacadoParte07 --&gt;
+        ///&lt;table class=&quot;w792&quot;&gt;
+        ///    &lt;tr class=&quot;ct h13&quot;&gt;
+        ///        &lt;td class=&quot;&quot;&gt;
+        ///            &lt;div class=&quot;h11&quot;&gt;Instruções&lt;/div&gt;
+        ///            &lt;div class=&quot;h13&quot;&gt;@INSTRUCOES&lt;/div&gt;
+        ///        &lt;/td&gt;
+        ///        &lt;td class=&quot;w192 txtRight&quot;&gt;Autenticação mecânica&lt;/td&gt;
+        ///    &lt;/tr&gt;
+        ///&lt;/table&gt;.
         /// </summary>
-        internal static string ReciboSacadoParte6 {
+        internal static string ReciboSacadoParte07 {
             get {
-                return ResourceManager.GetString("ReciboSacadoParte6", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;table class=&quot;w666&quot;&gt;
-        ///				&lt;tr class=&quot;ctN h13&quot;&gt;
-        ///						&lt;td class=&quot;pL6&quot;&gt;Instruções&lt;/td&gt;
-        ///						&lt;td class=&quot;w180 Ar&quot;&gt;Autenticação mecânica&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///				&lt;tr class=&quot;cpN h12&quot;&gt;
-        ///						&lt;td class=&quot;pL6&quot;&gt;@INSTRUCOES&lt;/td&gt;
-        ///						&lt;td class=&quot;pL6 Ar&quot;&gt;@AUTENTICACAOMECANICA&lt;/td&gt;
-        ///				&lt;/tr&gt;
-        ///		&lt;/table&gt;.
-        /// </summary>
-        internal static string ReciboSacadoParte7 {
-            get {
-                return ResourceManager.GetString("ReciboSacadoParte7", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;table class=&quot;ctN w666&quot;&gt;
-        ///				&lt;tr class=&quot;h13&quot;&gt;&lt;td /&gt;&lt;/tr&gt;
-        ///				&lt;tr class=&quot;h13&quot;&gt;&lt;td /&gt;&lt;/tr&gt;
-        ///				&lt;tr&gt;&lt;td class=&quot;Ar&quot;&gt;Corte na linha pontilhada&lt;/td&gt;&lt;/tr&gt;
-        ///				&lt;tr&gt;&lt;td class=&quot;cut&quot; /&gt;&lt;/tr&gt;
-        ///				&lt;tr class=&quot;h13&quot;&gt;&lt;td /&gt;&lt;/tr&gt;
-        ///				&lt;tr class=&quot;h13&quot;&gt;&lt;td /&gt;&lt;/tr&gt;
-        ///		&lt;/table&gt;.
-        /// </summary>
-        internal static string ReciboSacadoParte8 {
-            get {
-                return ResourceManager.GetString("ReciboSacadoParte8", resourceCulture);
+                return ResourceManager.GetString("ReciboSacadoParte07", resourceCulture);
             }
         }
         
